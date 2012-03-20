@@ -1,0 +1,37 @@
+IGN Code-Foo Application Q2
+"Create a liquid layout with HTML, CSS, and Javascript. This layout must support the following resolutions: 1024x768, 1680x1050. Explain why you would use a liquid layout."
+
+First and foremost: A liquid layout is used when you want to display content in a consistent layout across any resolution. They allow for the developer to forgo coding for specific resolutions for a little bit more expended effort. Most commonly you'll see liquid layouts used in news style sites such as blogs or magazines. Specifying the resolutions in the problem statement isn't really necessary as a true liquid layout will support them by definition.
+Now to business. There are many different types of layouts which could be considered liquid. The problem does not specify any specific type, and the first layout that came to my mind is simply a blank page with content. While probably not what the problem had in mind, this does satisfy all of the requirements. It is a layout, and it is liquid.
+
+For this problem I am going to create a product demonstration style page which fades between the created layouts with descriptive text appearing between them. 
+
+Following is a high-level description of the intended flow sequence. Text represents the blank pages that separate layouts from each other with descriptive text. Each layout is marked with a description of what it does, as well as the content that is within it.
+Flow Sequence:
+    Text:
+        "IGN Code-Foo Application - Question 2"
+        "Daniel Wilson"
+        "The following layout is a blank page."
+        "It satisfies all of the requirements of the problem."
+        "It is a layout."
+        "It is liquid."
+    Layout 1:
+        Blank Page:
+            "This is a blank page. It is the simplest form of liquid layout."
+    Text:
+        "Now that probably wasn't what you wanted, so here is a more useful liquid layout."
+    Layout 2:
+        Main Layout:
+            Header:
+                "This is the header. It's a fairly standard device in layouts. Click it to set the layout to 1024x768 resolution."
+            Column 1:
+                "This is the first column. Many people use it for a navigation sidebar. Click it to toggle scaling."
+                "Current State: Scaling"
+                "Current Width: 10%"
+                "Current Height: "
+            Column 2:
+                "This is the second column. Most of the time it is used for the main content. You can drag its borders to resize it. It will keep the new size proportionate with the resolution."
+            Footer:
+                "This is a footer. It's about as standard as the header. Click it to set the layout to 1680x1050 resolution."
+
+Layouts
