@@ -35,3 +35,9 @@ Flow Sequence:
                 "This is a footer. It's about as standard as the header. Click it to set the layout to 1680x1050 resolution."
 
 Layouts
+    Blank Page:
+        - It's a blank page.
+    Main Layout:
+        - Two column, header/footer layout
+        - Left-hand column is switchable between fixed width and scaling width
+        - Right-hand column has adjustable width
