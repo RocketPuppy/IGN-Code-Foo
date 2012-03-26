@@ -34,13 +34,6 @@ def find_pattern(population, pattern):
         tmp /= 10
         pattern_length += 1
 
-    """patterns = [[""]]
-    #generate the patterns
-    for i in range(pattern_length):
-        for p in patterns[i]:
-            patterns.append([p+"N", p+"L"])
-            #patterns.append([p+"N"])
-            #patterns.append([p+"L"])"""
     patterns = dict({0: [(1,"")]})
     for i in range(pattern_length):
         old = patterns[i]
