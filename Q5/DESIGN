@@ -1,0 +1,16 @@
+Design Documentation
+
+PHP
+index.php
+board.php
+ai.php
+player.php
+
+board.html
+board.css
+board.html/css are template layout/style for the board
+
+index.php intializes everything.
+board.php contains Board class handles manipulation of the displayed board.
+ai.php contains AI class handles AI stuff.
+player.php contains Player class handles player moves and win/lose logic.
