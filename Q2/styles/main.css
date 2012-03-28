@@ -1,0 +1,41 @@
+#blank{
+    display:none;
+}
+#main{
+}
+#main #header{
+    padding: .75%;
+    min-height: 20%;
+    background: #ffaaaa;
+}
+#main #footer{
+    padding: .75%;
+    clear: both;
+    min-height:10%;
+    background: #ffaaaa;
+}
+#main .column{
+    float: left;
+    position: relative;
+    padding-bottom: 20010px;
+    margin-bottom: -20000px;
+}
+#main #content{
+    padding-left: 10%;
+    width: auto;
+    overflow: hidden;
+}
+#main #col1{
+    padding-left: .75%;
+    padding-right: .75%;
+    margin-left: -100%;
+    right: 12.5%;
+    background: #aaffaa;
+    width: 10%;
+}
+#main #col2{
+    background: #aaaaff;
+    padding-left: .75%;
+    padding-right: .75%;
+    width: 100%;
+}
