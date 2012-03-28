@@ -1,0 +1,16 @@
+.col{
+    width: 25px;
+    height: 25px;
+    float: left;
+    border: 1px;
+}
+.col a{
+    width: 25px;
+    height: 25px;
+}
+.player1{
+    background-color: red;
+}
+.player2{
+    background-color: blue;
+}
