@@ -1,0 +1,7 @@
+Rules of Connect Four:
+
+Board is 7 spaces wide by 6 spaces tall.
+Each player has 21 pieces.
+Players take turns playing pieces into each column.  The pieces move to the lowest possible position in that column.
+Pieces cannot overlap.
+The first player to have four pieces in a row diagonally, horizontally, or vertically wins.
