@@ -1,12 +1,17 @@
 .col{
     width: 25px;
     height: 25px;
+    border: 1px solid black;
     float: left;
-    border: 1px;
 }
-.col a{
-    width: 25px;
-    height: 25px;
+#legend *{
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+}
+.row{
+    clear: both;
 }
 .player1{
     background-color: red;
